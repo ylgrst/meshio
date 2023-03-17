@@ -278,6 +278,8 @@ def read_ascii_buffer(f):
             f.readline()
         elif items[0] in [
             "RequiredVertices",
+            "RequiredEdges",
+            "RequiredTriangles",
             "TangentAtVertices",
             "Tangents",
             "Ridges",
